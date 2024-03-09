@@ -14,7 +14,7 @@ Cenário: Iniciar a compra de um café
 
     Dado que estou na página principal da Starbugs
         E que desejo comprar o seguinte produto:
-        |name|price|delivery|
+        |product        |price  |delivery|
         |Expresso Gelado|R$ 9,99|R$ 10,00|
         E que desejo comprar o café "Expresso Gelado"
         E que esse produto custa "R$ 9,99"
