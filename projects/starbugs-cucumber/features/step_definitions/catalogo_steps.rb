@@ -27,7 +27,7 @@ end
 end
 
   Quando('inicio a compra desse item') do
-  product = find('.coffee-item', text: @product_name)
+    product = find('.coffee-item', text: @product_name)
     product.find('.buy-coffee').click
 end
   
